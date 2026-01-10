@@ -1,4 +1,11 @@
 
-export default function Page() {
-  return <div>AdminDashboard</div>;
+
+import React from 'react'
+
+const AdminDashboard = () => {
+  return (
+    <div>AdminDashboard</div>
+  )
 }
+
+export default AdminDashboard;
