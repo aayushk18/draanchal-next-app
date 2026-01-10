@@ -141,7 +141,7 @@ function WebPage() {
               </div> */}
               <div className="mb-10">
                 <h4 className="text-2xl font-semibold text-blue-800 mb-4">
-                  My Teaching Philosophy
+                  Teaching Philosophy
                 </h4>
                 <p className="text-gray-700 text-lg leading-relaxed">
                   I believe that every student has the potential to excel when
