@@ -88,9 +88,9 @@ function WebPage() {
                   by Dr. Aanchal Bhatia
                 </p>
 
-                <p className="text-xl md:text-2xl text-gray-500 mb-3">
+                {/* <p className="text-xl md:text-2xl text-gray-500 mb-3">
                   Assistant Professor of Medical Physiology
-                </p>
+                </p> */}
 
                 <p className="text-lg md:text-xl text-gray-500 mb-6">
                   MBBS | Undergraduate & Postgraduate Medical Education
