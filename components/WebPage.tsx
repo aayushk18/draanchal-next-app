@@ -26,7 +26,7 @@ function WebPage() {
         <nav className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <h1 className="text-xl md:text-2xl font-bold text-blue-900">
-            Onemed Tutor
+            OneMed Tutor
             </h1>
             <div className="hidden md:flex space-x-6">
               <button
@@ -82,7 +82,7 @@ function WebPage() {
 
               <div className="flex-1 text-center md:text-left">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 mb-3">
-                Onemed Tutor
+                OneMed Tutor
                 </h2>
 
                 <p className="text-lg md:text-xl text-blue-600 mb-2 font-medium">
@@ -125,7 +125,7 @@ function WebPage() {
         <section id="about" className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <h3 className="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-12">
-              About Me
+              About Us
             </h3>
             <div className="max-w-4xl mx-auto">
               {/* <div className="mb-10">
@@ -147,9 +147,9 @@ function WebPage() {
                
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
                   We believe that every student has the potential to excel when
-                  given the right guidance and support. My approach focuses on
+                  given the right guidance and support. Our approach focuses on
                   concept clarity, practical application, and exam-oriented
-                  preparation. I customize my teaching methods to match each
+                  preparation. We customize my teaching methods to match each
                   student's learning pace and knowledge level.
                 </p>
                 {/* <div className="grid md:grid-cols-2 gap-4">
