@@ -14,7 +14,7 @@ export default function Login() {
         <div className="space-y-6 max-w-md">
           <div className="flex items-center gap-3">
             <Stethoscope size={40} />
-            <h1 className="text-3xl font-bold">MediCare+</h1>
+            <h1 className="text-3xl font-bold">OneMed Tutor</h1>
           </div>
 
           <h2 className="text-4xl font-semibold leading-tight">
