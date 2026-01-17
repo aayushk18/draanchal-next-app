@@ -18,7 +18,7 @@ export default function Login() {
           </div>
 
           <h2 className="text-4xl font-semibold leading-tight">
-            Doctor Portal Login
+            Portal Login
           </h2>
 
           <p className="text-blue-100 text-lg">
@@ -44,7 +44,7 @@ export default function Login() {
               <Stethoscope className="text-blue-600" size={28} />
             </div>
             <h2 className="text-2xl font-bold text-gray-800">
-              Doctor Login
+              Portal Login
             </h2>
             <p className="text-gray-500">
               Enter your credentials to continue
