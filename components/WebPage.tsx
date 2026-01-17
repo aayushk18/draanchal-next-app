@@ -10,6 +10,7 @@ import {
   Users,
   Target,
   CheckCircle,
+  Instagram,
 } from "lucide-react";
 import profile from "../public/profile1.png";
 import Link from "next/link";
@@ -26,7 +27,7 @@ function WebPage() {
         <nav className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <h1 className="text-xl md:text-2xl font-bold text-blue-900">
-            OneMed Tutor
+              OneMed Tutor
             </h1>
             <div className="hidden md:flex space-x-6">
               <button
@@ -82,11 +83,11 @@ function WebPage() {
 
               <div className="flex-1 text-center md:text-left">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 mb-3">
-                OneMed Tutor
+                  OneMed Tutor
                 </h2>
 
                 <p className="text-lg md:text-xl text-blue-600 mb-2 font-medium">
-                Learning with Medicos
+                  Learning with Medicos
                 </p>
 
                 {/* <p className="text-xl md:text-2xl text-gray-500 mb-3">
@@ -144,7 +145,7 @@ function WebPage() {
                 <h4 className="text-2xl font-semibold text-blue-800 mb-4">
                   Teaching Philosophy
                 </h4>
-               
+
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
                   We believe that every student has the potential to excel when
                   given the right guidance and support. Our approach focuses on
@@ -219,7 +220,7 @@ function WebPage() {
         <section id="subjects" className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
             <h3 className="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-4">
-              Subjects 
+              Subjects
             </h3>
             <p className="text-center text-gray-600 mb-12 text-lg">
               Medical & Biology Subjects for All Levels
@@ -570,9 +571,7 @@ function WebPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h4 className="text-2xl font-bold mb-4">OneMed Tutor</h4>
-              <p className="text-blue-200">
-                Medical Expert
-              </p>
+              <p className="text-blue-200">Medical Expert</p>
               <p className="text-blue-200 mt-2">
                 Making medical education accessible and excellent
               </p>
@@ -597,8 +596,12 @@ function WebPage() {
                   </button>
                 </li>
                 <li>
-
-                  <Link  className="text-blue-200 hover:text-white transition" href="/panel/login">Panel</Link>
+                  <Link
+                    className="text-blue-200 hover:text-white transition"
+                    href="/panel/login"
+                  >
+                    Panel
+                  </Link>
                   {/* <button
                     onClick={() => scrollToSection("experience")}
                     className="text-blue-200 hover:text-white transition"
@@ -632,7 +635,15 @@ function WebPage() {
                   href="https://wa.me/919212948971"
                   className="flex items-center"
                 >
-                  <MessageCircle className="w-4 h-4 mr-2" /> WhatsApp Available
+                  <MessageCircle className="w-4 h-4 mr-2" /> WhatsApp 
+                </a>
+                <a
+                  href="https://www.instagram.com/onemedtutor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center hover:text-white transition"
+                >
+                  <Instagram className="w-4 h-4 mr-2" />Instagram 
                 </a>
               </div>
             </div>
