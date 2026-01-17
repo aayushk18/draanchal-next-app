@@ -149,7 +149,7 @@ function WebPage() {
                   We believe that every student has the potential to excel when
                   given the right guidance and support. Our approach focuses on
                   concept clarity, practical application, and exam-oriented
-                  preparation. We customize my teaching methods to match each
+                  preparation. We customize our teaching methods to match each
                   student's learning pace and knowledge level.
                 </p>
                 {/* <div className="grid md:grid-cols-2 gap-4">
@@ -571,7 +571,7 @@ function WebPage() {
             <div>
               <h4 className="text-2xl font-bold mb-4">Dr. Aanchal</h4>
               <p className="text-blue-200">
-                Assistant Professor | Medical Physiology Expert
+                Medical Expert
               </p>
               <p className="text-blue-200 mt-2">
                 Making medical education accessible and excellent
@@ -585,7 +585,7 @@ function WebPage() {
                     onClick={() => scrollToSection("about")}
                     className="text-blue-200 hover:text-white transition"
                   >
-                    About Me
+                    About
                   </button>
                 </li>
                 <li>
