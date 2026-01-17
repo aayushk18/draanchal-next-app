@@ -12,6 +12,7 @@ import {
   CheckCircle,
 } from "lucide-react";
 import profile from "../public/profile1.png";
+import Link from "next/link";
 
 function WebPage() {
   const scrollToSection = (id: string) => {
@@ -25,7 +26,7 @@ function WebPage() {
         <nav className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <h1 className="text-xl md:text-2xl font-bold text-blue-900">
-              Dr. Aanchal
+            Onemed Tutor
             </h1>
             <div className="hidden md:flex space-x-6">
               <button
@@ -81,11 +82,11 @@ function WebPage() {
 
               <div className="flex-1 text-center md:text-left">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 mb-3">
-                  Learning with Medicos
+                Onemed Tutor
                 </h2>
 
                 <p className="text-lg md:text-xl text-blue-600 mb-2 font-medium">
-                  by Dr. Aanchal Bhatia
+                Learning with Medicos
                 </p>
 
                 {/* <p className="text-xl md:text-2xl text-gray-500 mb-3">
@@ -143,17 +144,45 @@ function WebPage() {
                 <h4 className="text-2xl font-semibold text-blue-800 mb-4">
                   Teaching Philosophy
                 </h4>
-                <p className="text-gray-700 text-lg leading-relaxed">
-                  I believe that every student has the potential to excel when
+               
+                <p className="text-gray-700 text-lg leading-relaxed mb-4">
+                  We believe that every student has the potential to excel when
                   given the right guidance and support. My approach focuses on
                   concept clarity, practical application, and exam-oriented
                   preparation. I customize my teaching methods to match each
                   student's learning pace and knowledge level.
                 </p>
+                {/* <div className="grid md:grid-cols-2 gap-4">
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                    <p className="text-gray-700">
+                      Expert in Physiology, Pathology, Biochemistry, and
+                      Microbiology
+                    </p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                    <p className="text-gray-700">
+                      Student-centric teaching approach
+                    </p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                    <p className="text-gray-700">
+                      Focus on making complex topics simple
+                    </p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                    <p className="text-gray-700">
+                      Proven track record with MBBS students
+                    </p>
+                  </div>
+                </div> */}
               </div>
               <div>
                 <h4 className="text-2xl font-semibold text-blue-800 mb-4">
-                  Why Students Choose Me
+                  Why Students Choose Us
                 </h4>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="flex items-start space-x-3">
@@ -568,12 +597,14 @@ function WebPage() {
                   </button>
                 </li>
                 <li>
-                  <button
+
+                  <Link  className="text-blue-200 hover:text-white transition" href="/panel/login">Panel</Link>
+                  {/* <button
                     onClick={() => scrollToSection("experience")}
                     className="text-blue-200 hover:text-white transition"
                   >
                     Panel
-                  </button>
+                  </button> */}
                 </li>
                 <li>
                   <button
@@ -592,10 +623,10 @@ function WebPage() {
                   <Phone className="w-4 h-4 mr-2" /> +91 92129 48971
                 </a>
                 <a
-                  href="mailto:as9212948@gmail.com"
+                  href="mailto:onemedtutor@gmail.com"
                   className="flex items-center"
                 >
-                  <Mail className="w-4 h-4 mr-2" /> as9212948@gmail.com
+                  <Mail className="w-4 h-4 mr-2" /> onemedtutor@gmail.com
                 </a>
                 <a
                   href="https://wa.me/919212948971"

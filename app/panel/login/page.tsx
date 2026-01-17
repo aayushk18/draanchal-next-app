@@ -1,11 +1,12 @@
-"use client"
+import Login from "@/components/login/Login.jsx";
 
-import React from 'react'
-
-const Login = () => {
+const page = () => {
   return (
-    <div>Login</div>
+    <div>
+<Login/>
+
+    </div>
   )
 }
 
-export default Login;
+export default page
