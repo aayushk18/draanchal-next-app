@@ -569,7 +569,7 @@ function WebPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h4 className="text-2xl font-bold mb-4">Dr. Aanchal</h4>
+              <h4 className="text-2xl font-bold mb-4">OneMed Tutor</h4>
               <p className="text-blue-200">
                 Medical Expert
               </p>
