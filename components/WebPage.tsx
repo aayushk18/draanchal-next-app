@@ -189,8 +189,7 @@ function WebPage() {
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                     <p className="text-gray-700">
-                      Expert in Physiology, Pathology, Biochemistry, and
-                      Microbiology
+                    One to one personalized teaching
                     </p>
                   </div>
                   <div className="flex items-start space-x-3">
