@@ -12,7 +12,7 @@ import {
   CheckCircle,
   Instagram,
 } from "lucide-react";
-import profile from "../public/profile1.png";
+import profile from "../public/onemed_pic.png";
 import Link from "next/link";
 
 function WebPage() {
@@ -73,7 +73,7 @@ function WebPage() {
                 <div className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full flex items-center justify-center ring-4 ring-blue-500 ring-offset-4 ring-offset-white shadow-xl">
                   <div className="w-full h-full bg-gradient-to-br from-blue-200 to-blue-300 rounded-full overflow-hidden">
                     <Image
-                      src='https://instagram.fdel27-4.fna.fbcdn.net/v/t51.2885-19/617571898_17842998843680880_4911607489163474744_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=instagram.fdel27-4.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2QHEvy7IQCjwKb2uqhLNwdDpsUJ9GePzNBSCjRRS8zyZ49LiilLiUS_rjf56P3Cqmi1O1uV5-C0dgT5kq8VB9cnL&_nc_ohc=keGHsisFjRcQ7kNvwGsmQwh&_nc_gid=7CN88PelqwFj3mXhMpWk9A&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Afoz6dT_082Px_fdLn0pkrnEdY7UhnYCzBHFK9CoNd-kGg&oe=69757807&_nc_sid=7a9f4b'
+                      src={profile}
                       alt="Profile"
                       className="w-full h-full object-cover rounded-full"
                     />
