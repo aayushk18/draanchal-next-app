@@ -42,12 +42,12 @@ function WebPage() {
               >
                 Subjects
               </button>
-              <button
+              {/* <button
                 onClick={() => scrollToSection("experience")}
                 className="text-gray-700 hover:text-blue-600 transition"
               >
                 Experience
-              </button>
+              </button> */}
               <button
                 onClick={() => scrollToSection("contact")}
                 className="text-gray-700 hover:text-blue-600 transition"
