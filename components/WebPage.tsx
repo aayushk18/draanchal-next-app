@@ -12,7 +12,7 @@ import {
   CheckCircle,
   Instagram,
 } from "lucide-react";
-import profile from "../public/onemed_pic.png";
+import profile from "../public/onemed_pic.jpg";
 import Link from "next/link";
 
 function WebPage() {
