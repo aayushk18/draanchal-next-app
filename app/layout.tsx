@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "OneMed Tutor",
     description: "Join OneMed Tutor for high-quality online medical education. Personalized tutoring for Medical students covering all major medical subjects by experienced doctors and educators.",
-    url: "https://onemedtutor.com",
+    url: "https://www.onemedtutor.com",
     siteName: "OneMed Tutor",
     images: [
       {
