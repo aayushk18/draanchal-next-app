@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   keywords: [
     "Onemed Tutor",
     "Onemedtutor",
+    "onemedtutor.com",
     "OneMed Tutor",
     "Online Medical Tutor",
     "MBBS Online Classes",
