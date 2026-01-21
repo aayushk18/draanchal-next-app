@@ -16,9 +16,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "OneMed Tutor | Online Medical Tutors for Medical Students",
   description: "Expert MBBS and medical subject tutor with 5+ years experience. Teaching Physiology, Anatomy, Pathology, Biochemistry, Microbiology and more.",
-  // icons: {
-  //   icon: '/favicon.ico',
-  // },
   keywords: [
     "Onemed Tutor",
     "Onemedtutor",
