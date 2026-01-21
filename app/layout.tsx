@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "OneMed Tutor",
     images: [
       {
-        url: "https://instagram.fdel27-4.fna.fbcdn.net/v/t51.2885-19/617571898_17842998843680880_4911607489163474744_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=instagram.fdel27-4.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2QHEvy7IQCjwKb2uqhLNwdDpsUJ9GePzNBSCjRRS8zyZ49LiilLiUS_rjf56P3Cqmi1O1uV5-C0dgT5kq8VB9cnL&_nc_ohc=keGHsisFjRcQ7kNvwGsmQwh&_nc_gid=7CN88PelqwFj3mXhMpWk9A&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Afoz6dT_082Px_fdLn0pkrnEdY7UhnYCzBHFK9CoNd-kGg&oe=69757807&_nc_sid=7a9f4b",
+        url: "/favicon.ico",
         width: 1200,
         height: 630,
         alt: "One Med Tutor img",
