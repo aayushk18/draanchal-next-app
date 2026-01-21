@@ -13,11 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "One Med Tutor",
+  title: "One Med Tutor | Online Medical Tutors for Medical Students",
   description: "Expert MBBS and medical subject tutor with 5+ years experience. Teaching Physiology, Anatomy, Pathology, Biochemistry, Microbiology and more.",
+  keywords: [
+    "Onemed Tutor",
+    "Online Medical Tutor",
+    "MBBS Online Classes",
+    "Medical Coaching",
+    "Anatomy Tutor",
+    "Physiology Tutor",
+    "Pathology Tutor",
+    "Biochemistry Tutor",
+    "Microbiology Tutor",
+    "Pharmacology Tutor",
+  ],
   openGraph: {
-    title: "My Website",
-    description: "This is my website description",
+    title: "OneMed Tutor",
+    description: "Join OneMed Tutor for high-quality online medical education. Personalized tutoring for Medical students covering all major medical subjects by experienced doctors and educators.",
     url: "https://onemedtutor.com",
     siteName: "One Med Tutor",
     images: [
